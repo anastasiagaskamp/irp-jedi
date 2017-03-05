@@ -1,0 +1,116 @@
+/*The fonts*/
+@import url('https://fonts.googleapis.com/css?family=Fanwood+Text|PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+h1, header h3 {font-family: "Fanwood Text", serif;}
+h1 {font-size: 50px;}
+h3 {font-family: "PT Sans", sans-serif; font-size: 2.2rem;}
+h4 {font-family: "Montserrat", sans-serif; font-weight: 900;}
+h6 {font-size: 0.8rem;}
+body {font-family: "PT Sans", sans-serif; font-size: 1.2rem;}
+
+/*general*/
+body {
+  margin: 2rem 1.3rem;
+  line-height: 1.8em;
+  background-color: #fcf9ef;
+}
+
+hr {
+  padding: 10px 20px;
+  max-width: 550px;
+  min-width: 230px;
+}
+
+/*header*/
+h1 {
+  text-decoration: overline underline;
+}
+header {
+  text-align: center;
+}
+/*nav*/
+nav ul li {
+  display: inline;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+/*article*/
+article {
+  max-width: 600px;
+  min-width: 250px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.9rem;
+  padding: 29px 0px 5px 0px;
+}
+.caption {
+  text-align: center;
+  color: #505050;
+}
+
+#buy {
+  text-align: center;
+}
+
+dt {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}
+
+.center {
+  font-family: "Fanwood Text", serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.7rem;
+  padding-top: 30px;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+/*footer*/
+h6 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.alert {
+  margin: 0px auto;
+  max-width: 600px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.alertit {
+  display: inline;
+}
+
+button {
+  display: inline;
+  float: right;
+  border: transparent;
+  background-color: transparent;
+}
+
+.row {
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.the-image {
+  max-width: 50%;
+  min-width: 22vh;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
